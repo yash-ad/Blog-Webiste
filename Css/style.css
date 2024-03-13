@@ -1,0 +1,87 @@
+
+@import url('https://fonts.cdnfonts.com/css/neometric-2');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+:root {
+    --heading-color: #060b5d;
+    --text-color: #97979b;
+  }
+
+body{
+    font-family: 'Neometric Alt', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#fff;
+    padding: 25px 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 100001;
+    border-bottom: 1px solid #c5c5c5;
+    border-bottom: 1px solid #c5c5c5;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--heading-color);
+}
+
+.logo i{
+    color: #6722f1;
+  }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 20px;
+}
+
+.navbar a{
+    margin-left: 15px;
+  color: #727272;
+  padding: 8px 14px;
+  border-radius: 4px;
+  transition: all .4s ease;
+}
+
+.navbar a:hover, #menu-icon2:hover{
+    background: #8447fa;
+    color: #fff;
+  }
+
+
+  .hero{
+    margin-top: 80px;
+    background-color: rgb(255, 255, 255);
+    background: url(/img/banner-bg.jpg),linear-gradient(
+        to top,
+        rgba(255, 255, 255, 0.9) 0%,
+        rgba(255, 255, 255, 0.2) 85%
+      );
+  }
